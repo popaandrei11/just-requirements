@@ -1,0 +1,31 @@
+stages:
+- stage: 'BlackDuck_Scan'
+  jobs:
+    - job: detect
+      steps:
+      - task: CmdLine@2
+        displayName: 'Install Python dependencies'
+        inputs:
+          script: |
+            find . -name "requirements.txt" -type f -exec sh -c '
+              for req in "$@"; do
+                  while IFS= read -r package || [ -n "$package" ]; do
+                      pip install --no-cache-dir --no-clean --no-deps "$package" || echo "Failed to install $package"
+                  done < "$req"
+              done
+            ' sh {} +
+
+      - task: SynopsysDetectTask@9
+        displayName: 'Run Synopsys Detect'
+        inputs:
+          BlackDuckService: 'BlackDuck'
+          DetectArguments: |
+            --detect.project.name=just-requirements
+            --detect.project.version.name=Ongoing_Build
+            --blackduck.trust.cert=true  
+            --detect.detector.search.depth=100  
+            --detect.tools=DETECTOR  
+            --detect.detector.search.continue=true
+            --detect.code.location.name=python-dependencies-just-requirements
+          DetectVersion: 'latest'
+
