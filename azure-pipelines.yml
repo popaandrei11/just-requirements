@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=just-requirements
-            --detect.project.version.name=Ongoing_Build
+            --detect.project.name=GemSeek_SPS_ to_Quantum)converter
+            --detect.project.version.name=1.0.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-just-requirements
+            --detect.code.location.name=python-dependencies-GemSeek_SPSS_to_Quantum_converter_1.0.0
           DetectVersion: 'latest'
 
