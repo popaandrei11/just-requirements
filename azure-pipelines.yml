@@ -20,7 +20,7 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=GemSeek_SPS_ to_Quantum)converter
+            --detect.project.name=GemSeek_SPSS_to_Quantum_converter
             --detect.project.version.name=1.0.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
