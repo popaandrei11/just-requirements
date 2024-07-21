@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=GemSeek_SPSS_to_Quantum_converter
-            --detect.project.version.name=1.0.0
+            --detect.project.name=Intelligent_Collections_3.0
+            --detect.project.version.name=IC3.1
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-GemSeek_SPSS_to_Quantum_converter_1.0.0
+            --detect.code.location.name=python-dependencies-Intelligent_Collections_3.0-IC3.1
           DetectVersion: 'latest'
 
