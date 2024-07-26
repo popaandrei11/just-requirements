@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=Intelligent_Collections_3.0
-            --detect.project.version.name=IC3.1
+            --detect.project.name=GL_Advisor
+            --detect.project.version.name=2.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-Intelligent_Collections_3.0-IC3.1
+            --detect.code.location.name=python-dependencies-GL_Advisor-2.0
           DetectVersion: 'latest'
 
