@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=GL_Advisor
-            --detect.project.version.name=2.0
+            --detect.project.name=GenWizard
+            --detect.project.version.name=1.3.1
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-GL_Advisor-2.0
+            --detect.code.location.name=python-dependencies-GenWizard-1.3.1
           DetectVersion: 'latest'
 
