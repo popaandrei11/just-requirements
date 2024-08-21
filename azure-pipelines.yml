@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=Market_Intelligence_Assistant_(MIA)-GenAI
-            --detect.project.version.name=1.0(GENAI)-Rescan
+            --detect.project.name=OntoSearch_Lite
+            --detect.project.version.name=V1
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-Market_Intelligence_Assistant_(MIA)-GenAI-1.0(GENAI)-Rescan
+            --detect.code.location.name=python-dependencies-OntoSearch_Lite-V1
           DetectVersion: 'latest'
 
