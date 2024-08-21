@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=GenWizard
-            --detect.project.version.name=1.3.1
+            --detect.project.name=Market_Intelligence_Assistant_(MIA)-GenAI
+            --detect.project.version.name=1.0(GENAI)-Rescan
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-GenWizard-1.3.1
+            --detect.code.location.name=python-dependencies-Market_Intelligence_Assistant_(MIA)-GenAI-1.0(GENAI)-Rescan
           DetectVersion: 'latest'
 
