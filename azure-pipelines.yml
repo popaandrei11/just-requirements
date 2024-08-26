@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=OntoSearch_Lite
-            --detect.project.version.name=V1
+            --detect.project.name=Text_Translations_Dashboard
+            --detect.project.version.name=1.0.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-OntoSearch_Lite-V1
+            --detect.code.location.name=python-dependencies-Text_Translations_Dashboard-1.0.0
           DetectVersion: 'latest'
 
