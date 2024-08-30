@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=Text_Translations_Dashboard
-            --detect.project.version.name=1.0.0
+            --detect.project.name=Query_Gen
+            --detect.project.version.name=external_installation
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=python-dependencies-Text_Translations_Dashboard-1.0.0
+            --detect.code.location.name=Query_Gen-external_installation-python-dependencies
           DetectVersion: 'latest'
 
