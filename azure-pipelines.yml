@@ -1,3 +1,6 @@
+trigger: none
+pr: none
+
 stages:
 - stage: 'BlackDuck_Scan'
   jobs:
@@ -28,4 +31,3 @@ stages:
             --detect.detector.search.continue=true
             --detect.code.location.name=RAI_Platorm-1.0-python-dependencies-app_fairness
           DetectVersion: 'latest'
-
