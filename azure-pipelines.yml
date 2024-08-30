@@ -20,12 +20,12 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=Query_Gen
-            --detect.project.version.name=external_installation
+            --detect.project.name=RAI_Platorm
+            --detect.project.version.name=1.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=Query_Gen-external_installation-python-dependencies
+            --detect.code.location.name=RAI_Platorm-1.0-python-dependencies-app_fairness
           DetectVersion: 'latest'
 
