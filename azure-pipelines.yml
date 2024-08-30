@@ -29,5 +29,5 @@ stages:
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=RAI_Platorm-1.0-python-dependencies-soundness
+            --detect.code.location.name=RAI_Platorm-1.0-python-dependencies-app_transparency
           DetectVersion: 'latest'
