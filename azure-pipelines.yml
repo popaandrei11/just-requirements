@@ -23,11 +23,11 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=RAI_Platorm
-            --detect.project.version.name=1.0
+            --detect.project.name=UPS_AP_2024
+            --detect.project.version.name=1
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=RAI_Platorm-1.0-python-dependencies-app_transparency
+            --detect.code.location.name=UPS_AP_2024-1-python-dependencies
           DetectVersion: 'latest'
