@@ -23,11 +23,11 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=OAAASemanticSearch
+            --detect.project.name=OAAASemanticSearch_UnstructuredData
             --detect.project.version.name=2.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=OAAASemanticSearch-2.0-python-dependencies
+            --detect.code.location.name=OAAASemanticSearch_UnstructuredData-2.0-python-dependencies
           DetectVersion: 'latest'
