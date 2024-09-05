@@ -29,5 +29,5 @@ stages:
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
             --detect.detector.search.continue=true
-            --detect.code.location.name=GenWizard-1.4-python-dependencies-GenWizard 1.4\song_python_app\song_python_app
+            --detect.code.location.name=OAAAKGchunks-1.0-python-dependencies
           DetectVersion: 'latest'
