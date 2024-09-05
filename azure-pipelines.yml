@@ -23,8 +23,8 @@ stages:
         inputs:
           BlackDuckService: 'BlackDuck'
           DetectArguments: |
-            --detect.project.name=GenWizard
-            --detect.project.version.name=1.4
+            --detect.project.name=OAAAKGchunks
+            --detect.project.version.name=1.0
             --blackduck.trust.cert=true  
             --detect.detector.search.depth=100  
             --detect.tools=DETECTOR  
